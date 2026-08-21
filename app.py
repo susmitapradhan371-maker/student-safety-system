@@ -328,10 +328,11 @@ def make_admin(email):
 
 # ---------------- START APPLICATION ----------------
 
-if __name__ == "__main__":
+
 
     init_db()
     make_admin("pp183910@gmail.com")
+    if __name__ =="__main__":
 
 
     app.run(
