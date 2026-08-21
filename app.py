@@ -243,7 +243,7 @@ def sos():
 # ---------------- ADMIN DASHBOARD ----------------
 
 @app.route("/admin")
-@admin_required
+
 def admin():
 
     conn = get_db()
