@@ -331,7 +331,7 @@ def make_admin(email):
 
 
     init_db()
-    make_admin("pp183910@gmail.com")
+    make_admin("susmitapradhan371@gmail.com")
 
     if __name__ =="__main__":
      app.run(
